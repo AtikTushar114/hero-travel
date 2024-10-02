@@ -208,6 +208,7 @@ button{
     font-family: sans-serif;
     font-size: 1.5em;
     display: flex;
+    height: 43vh;
     justify-content: center;
     align-items: center;
 }
@@ -229,9 +230,284 @@ button{
 }
 
 .sec3{
-    background-image: url(/Images/Rectangle\ 8.png);
-    background-size:contain;
+    background-image: url(/Images/Rectangle\ 6.png);
+    background-size:cover;
     background-repeat: no-repeat;
-    grid-column: 1 / 2;
+    border-radius: 20px;
+    width: 120%;
     height: 43vh;
+    grid-column: 1/2;
+    
+    
+}
+.sec4{
+    background-image: url(/Images/Rectangle\ 7.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 100%;
+    height: 43vh;
+    grid-column: 2 / 4;
+    margin-left: 8%;
+    
+    
+}
+
+.sec5{
+    background-image: url(/Images/Rectangle\ 9.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 90%;
+    height: 43vh;
+    grid-column: 4 ; 
+    margin: 0% 15%;   
+    
+    
+}
+
+.sec6{
+    background-image: url(/Images/Rectangle\ 11.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 90%;
+    height: 35vh;
+    grid-column: 1/ span 2;
+    
+} 
+
+.sec7{
+    background-image: url(/Images/Rectangle\ 7.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 105%;
+    height: 35vh;
+    grid-column: 3/ span 4;
+    margin-left: -10%;
+    
+    
+}
+
+.whu{
+    width: 100%;
+    margin: 10% auto;
+    font-family: sans-serif;
+}
+
+.Whuw{
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 2% auto;
+    text-align: center;
+    
+}
+
+.sub{
+    font-size: 1em;
+    width: 50%;
+    text-align: center;
+    margin: 2% auto;
+}
+
+.icons{
+    margin: 5% 3% 1% 3%;
+    width: 8%;
+    height: 8vh;
+    filter: drop-shadow(-0px 0px 0.5px);
+}
+
+.headings{
+    font-size: 1.5em;
+    margin: 2% 2%;
+}
+
+.fdetails{
+    font-size: .8em;
+    margin: 2% 3%;
+    color: gray;
+    text-align: justify;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1%;
+}
+
+.hph{
+    background-color: #f7efb368;
+    border: 2px solid #f7efb368 ;
+    border-radius: 20px;
+    width: 90%;
+    height: 40vh;
+    grid-column: 1/ 3;
+    margin: 2%;
+    margin-left: 10%;
+}
+
+.wcs{
+    background-color: rgba(188, 237, 242, 0.407);
+    border: 2px solid rgba(188, 237, 242, 0.407) ;
+    border-radius: 20px;
+    width: 90%;
+    height: 40vh;
+    grid-column: 3/ 5;
+    margin: 2%;
+}
+
+.bpg{
+    background-color: rgba(255, 209, 205, 0.407);
+    border: 2px solid rgba(255, 209, 205, 0.407) ;
+    border-radius: 20px;
+    width: 90%;
+    height: 40vh;
+    grid-column: 2/ 4;
+    margin: 2%;
+    margin-left: 10%;
+}
+
+.offers{
+    font-family: sans-serif;
+}
+
+.fa-solid{
+    color:orangered;
+    margin: 1%;
+}
+
+ul{
+    list-style: none;
+    margin: 5%;
+    width: 100%;
+}
+ul li{
+    margin: 2%;
+    display: inline;
+}
+
+.box{
+    width: 42%;
+    height: 45vh;
+    background-color: rgba(250, 250, 251, 0.766);
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 4% ;
+    margin-left: 4%;
+}
+
+.offer1{
+    width: 100%;
+    height: 56vh;
+    background-image: url(/Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.offerh{
+    font-size: 1.5em;
+    margin: 2% 8%;
+}
+
+.offerp{
+    color: gray;
+    margin: 2% 8%;
+}
+
+.box button{
+    width: 30%;
+    margin: 5% 8%;
+}
+
+.price{
+    color: orangered;
+    font-size: 1.3em;
+    margin: 5% 8% 0% 8%;
+}
+
+.offer2{
+    width: 100%;
+    height: 56vh;
+    background-image: url(/Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    margin: 3% 0%;
+}
+
+.offer3{
+    width: 100%;
+    height: 56vh;
+    background-image: url(/Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    margin: 3% 0%;
+}
+
+.SPPGL{
+    width: 100%;
+    height: 57vh;
+    display: flex;
+    font-family: sans-serif;
+    margin: 5% auto;
+    
+}
+
+.sprtop{
+    width: 90%;
+    font-weight: 800;
+    font-size: 3.2em;
+    text-align: start;
+    margin: 2% 7%;
+}
+
+.sprdet{
+    Margin:2% 5%;
+    color:gray;
+    font-size: 1em;
+    text-align: center;
+}
+
+.sprli{
+    width: 95%;
+    list-style:disc ;
+    display: block;
+}
+
+.sprli li{
+    display: block;
+    margin: 2% 4%;
+    font-weight: 700;
+}
+
+.sprbtn{
+    margin: 2% 10%;
+    width: 25%;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.SPRright{
+    margin: 2% auto;
+}
+
+.news{
+    display: flex;
+}
+
+.newsf{
+    background-color: none;
 }
