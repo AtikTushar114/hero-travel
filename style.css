@@ -614,3 +614,71 @@ ul li{
     color: gray;
     opacity: .5;
 }
+
+.footer{
+    background-color:rgba(234, 232, 232, 0.784);
+    font-family: sans-serif;
+    margin: 2% auto;
+    width: 95%;
+}
+
+.footlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    
+}
+
+.footimg{
+    margin: 0% auto;
+}
+
+.footlp{
+    margin: 0% 1%;
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+.footermain{
+    width: 70%;
+    height: 15vh;
+    margin: 0 auto;
+}
+
+.footerp{
+    text-align: center;
+    color: gray;
+
+}
+.social{
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+}
+
+.s_list{
+    margin: 0% 35% 8% 35%; 
+}
+.s_list li{
+    margin: 1% 5%;
+}
+a{
+    color: black;
+    font-size: 1.6em;
+}
+
+.fhr{
+    width: 55%;
+    margin: 2% auto;
+    color: gray;
+    opacity: .5;
+}
+
+.footerfoot{
+    margin: 0% auto 5% auto;
+    text-align: center;
+    font-size: 0.9em;
+}
